@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button class="toggle" id="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>Sirichai</h1>
+        <p>Developer</p>
+        <button class="create-account" id="open">Create Account</button>
+    </header>
+
+    <div class="container">
+        <h2>Web Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi est, minus voluptatem accusantium quam maiores itaque. Ipsum architecto expedita laboriosam accusantium, accusamus officia ex tempore ipsa quisquam impedit tempora minus.</p>
+        <h2>Power-App Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi totam labore minus facere adipisci amet neque excepturi error deleniti harum dicta exercitationem quaerat architecto molestiae vel atque, temporibus laborum maxime.</p>
+    
+    </div>
+
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+
+            <div class="modal-header">
+                <h3>Create Account</h3>
+            </div>
+
+            <div class="modal-content">
+                <p>Create-Account Form</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="">Username</label>
+                        <input type="text" name="" class="form-input">
+                    </div>
+
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email" name="" class="form-input">
+                    </div>
+
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password" name="" class="form-input">
+                    </div>
+                    <button type="submit" value="save" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
